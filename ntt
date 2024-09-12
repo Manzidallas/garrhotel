@@ -1,0 +1,182 @@
+<header className='header h-[100vh] border border-black'>
+  <div className="text-white bg-gray-200 z-10 w-full left-0 right-0 backdrop-blur-md" id="heading">
+    <div className="flex justify-between items-center w-[85%] py-6 m-auto">
+      <img
+        src="https://hotel.fdgafrica.com/wp-content/uploads/2024/08/logofinal-garr.webp"
+        alt="Hotel logo"
+        className="rounded-lg p-1 "
+      />
+
+      <ul className="flex gap-6 text-md text-black font-semibold">
+        <li className="hover:text-gray-400 cursor-pointer transition duration-300">Home</li>
+        <li className="hover:text-gray-400 cursor-pointer transition duration-300">About us</li>
+        <li className="hover:text-gray-400 cursor-pointer transition duration-300">Our rooms</li>
+        <li className="hover:text-gray-400 cursor-pointer transition duration-300">Meeting venue</li>
+        <li className="hover:text-gray-400 cursor-pointer transition duration-300">Contact Us</li>
+      </ul>
+    </div>
+  </div>
+
+  <div className="w-full m-auto overflow-hidden h-[750px]">
+     <div className="overflow-hidden pb-20">
+      <img
+        src=""
+        className="w-full object-cover h-full"
+        alt="Hotel Landscape"
+      />
+    </div>
+
+    <div className=" ml-12 w-[410px] text-left p-8 bg-gray-100 text-black rounded-xl">
+      <h1 className="text-4xl font-bold mb-4">Twin Rooms</h1>
+      <p className="max-w-lg text-lg">
+        Discover your perfect getaway in our elegantly designed Standard Rooms. All at an unbeatable price. Book now and make your stay unforgettable!
+      </p>
+      <ul className="list-disc list-inside text-gray-500 text-md mt-4">
+        <li>Spacious & comfortable twin beds</li>
+        <li>Free Wi-Fi</li>
+        <li>Ensuite modern bathroom</li>
+        <li>Complimentary breakfast</li>
+        <li>24-hour room service</li>
+      </ul>
+      <button className="mt-6 px-8 py-3 bg-orange-600 text-white font-semibold rounded-full hover:bg-blue-700 transition duration-300">
+        Book now
+      </button>
+    </div>
+
+  </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className="w-[85%] mx-auto p-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden h-full">
+            <img
+              src="https://hotel.fdgafrica.com/wp-content/uploads/2024/08/226819211.jpg"
+              alt="Rooms & Suites"
+              className="w-full h-64 object-cover"
+            />
+            <div className="p-6 h-[250px]">
+              <h3 className="text-lg font-bold mb-2">Rooms & Suites</h3>
+              <p className="text-gray-700 mb-4">
+                Book your stay with us today and enjoy the perfect blend of luxury and convenience!
+              </p>
+              <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded">
+                Make a Reservation
+              </button>
+            </div>
+          </div>
+
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden h-full">
+            <img
+              src="https://c4.wallpaperflare.com/wallpaper/686/52/945/luxurious-hotel-room-wallpaper-preview.jpg"
+              alt="Pool Bar & Restaurant"
+              className="w-full h-64 object-cover"
+            />
+            <div className="p-6 h-[250px]">
+              <h3 className="text-lg font-bold mb-2">Pool Bar & Restaurant</h3>
+              <p className="text-gray-700 mb-4">
+                Relax in our spotless, serene rooms and enjoy top-notch service from our dedicated team.
+              </p>
+              <button className="bg-black hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded">
+                Make an Order
+              </button>
+            </div>
+          </div>
+
+
+          <div className="bg-white rounded-lg shadow-md overflow-hidden h-full">
+            <img
+              src="https://i.pinimg.com/736x/e5/53/56/e553568217a584ac374fef18691f0b6d.jpg"
+              alt="Swimming Pool & SPA"
+              className="w-full h-64 object-cover"
+            />
+            <div className="p-6 h-[250px]">
+              <h3 className="text-lg font-bold mb-2">Swimming Pool & SPA</h3>
+              <p className="text-gray-700 mb-4">
+                Treat yourself to the ultimate spa experience—because you deserve nothing but the best.
+              </p>
+              <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded">
+                Booking
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-[90%] mx-auto py-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <div className="relative rounded-lg overflow-hidden shadow-lg">
+          <img
+            src="https://example.com/image-large.jpg"
+            alt="Oasis Sands Resort Homestay"
+            className="w-full h-[350px] object-cover"
+          />
+          <div className="absolute bottom-0 left-0 w-full p-6 bg-black bg-opacity-50 text-white">
+            <h2 className="text-2xl font-bold">Oasis Sands Resort Homestay</h2>
+            <p className="text-sm mt-1">Palm Jumeirah, Dubai</p>
+            <div className="flex items-center justify-between mt-2">
+              <span>⭐⭐⭐⭐⭐ (218 Visitors)</span>
+              <button className="text-white bg-transparent border-none text-2xl">&#x2192;</button>
+            </div>
+          </div>
+        </div>
+
+        {/* Right Smaller Cards */}
+        <div className="flex flex-col gap-6">
+          {/* Top Right Card */}
+          <div className="relative rounded-lg overflow-hidden shadow-lg">
+            <img
+              src="https://example.com/image-small1.jpg"
+              alt="Blue Saroza Drogba Comfort Hotel"
+              className="w-full h-[170px] object-cover"
+            />
+            <div className="absolute bottom-0 left-0 w-full p-4 bg-black bg-opacity-50 text-white">
+              <h3 className="text-lg font-bold">Blue Saroza Drogba Comfort Hotel</h3>
+              <p className="text-xs mt-1">Surabaya, Indonesia</p>
+              <div className="flex items-center justify-between mt-2">
+                <span>⭐⭐⭐⭐⭐ (104 Visitors)</span>
+                <button className="text-white bg-transparent border-none text-xl">&#x2192;</button>
+              </div>
+            </div>
+          </div>
+
+          {/* Bottom Right Card */}
+          <div className="relative rounded-lg overflow-hidden shadow-lg">
+            <img
+              src="https://example.com/image-small2.jpg"
+              alt="Luxury Comfort Stays Hotel Indonesia"
+              className="w-full h-[170px] object-cover"
+            />
+            <div className="absolute bottom-0 left-0 w-full p-4 bg-black bg-opacity-50 text-white">
+              <h3 className="text-lg font-bold">Luxury Comfort Stays Hotel Indonesia</h3>
+              <p className="text-xs mt-1">Malang, Indonesia</p>
+              <div className="flex items-center justify-between mt-2">
+                <span>⭐⭐⭐⭐ (102 Visitors)</span>
+                <button className="text-white bg-transparent border-none text-xl">&#x2192;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
